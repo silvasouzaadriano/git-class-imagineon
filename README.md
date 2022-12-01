@@ -8,3 +8,7 @@
    1. Adiciona os arquivos alterados e/ou criados na stagging area (para serem commitados)
 4. git commit -m "<descrição do commit>"
    1. Commita os arquivos, gerando uma nova versão
+5. git log
+   1. Mostra todos os commits realizados
+6. git show <id commit>
+   1. Mostra o conteúdo de um commit
