@@ -12,3 +12,14 @@
    1. Mostra todos os commits realizados
 6. git show <id commit>
    1. Mostra o conteúdo de um commit
+
+
+## Configurações do git
+
+1. git config 
+   1. --local (relacionado ao projeto)
+   2. --global (qualquer projeto do meu usuário)
+   3. --system (todos os projetos e todos os usuário da máquina)
+
+  git config --edit (abre com VI ou VIM)
+  git config --global core.editor code (abre no VSCODE)
