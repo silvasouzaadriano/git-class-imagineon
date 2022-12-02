@@ -23,3 +23,15 @@
 
   git config --edit (abre com VI ou VIM)
   git config --global core.editor code (abre no VSCODE)
+
+## Atalhos
+
+1.[alias]
+  1. c = !git add --all && git commit -m
+  2. s = !git status -s
+  3. l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s -%C(cyan) %cn,%C(green) %cr'
+
+## Criando repo com remote
+
+1. gh repo create <nome do projeto> --public --source=. --remote=origin
+   1. Exemplo: gh repo create git-class-imagineon --public --source=. --remote=origin
